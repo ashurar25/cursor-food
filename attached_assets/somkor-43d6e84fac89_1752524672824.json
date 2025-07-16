@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "somkor",
+  "private_key_id": "43d6e84fac89d73a33d2e7219eeaabb426e3c1f2",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCzRLKTJgB2yDwm\nPPdLj3kkUEZuwbovGkWwdUBqnMl2bTSvORD1oEtaGzWNkKybT8clSbvIbLplIw1D\nlC1suNyVjT/AnMvPYnM8btgRbVoOhrFnhPoeoWo9VRfzmiGcPi418+7RjLtvctms\np0pg3YDE+dMKC8fWO90CURF07Q/8/kmHPHvOgnW5SEJzWei/Cn7r3Qp4tUyyi6wm\n6Ob2iE1AW8X/uwwiFSnA8nuvqLwtlipXG8j9yZLEBxG2n98UQyCcN8j3db7YNer1\nPz/zQyd/8QfkYYxLxUeCFZPtx7bk6UoMe4lo74gD9P//0Y8imF5gEGjKK7ozNQUM\ntBGP688fAgMBAAECgf9Cwf0Teb4H0zPoXsu4rQpv0MppybrhJOd5eYXY2Iotj9K5\nbdw4Rs5zalkxtAPofSJWwHPYL0/lBH3sAezoj+7qbQSmCxMwJ3ltB9oZTfTmHpfx\n9OiFKkG7P/UAwmUXH2YWBsDonX/aAOsOtehSKip0hT68fvvsIQmB01lXhvBtRaSf\nOYoBiIsK9FMrBaBa3f6wVQUT0A6Bq9FyQn51QrKYdL44vRNT2Ht7PI5S1dlaLxay\n0bxReOGyqRWn1EuP4eew1cJakL/1XSoKoSaBFxC7C9fNfhTgd2t8AnfplatrqYYE\nHG7qkaHgPP7S3iteI0BXOG5UpnBKk2D+lcJ/wcECgYEA6aN/a3Ko8dL7cnFYbFRu\nezazf/cnYOHgsoXptdj8WzhDHbCiKolN9bb6S2lF0nwhIUEHSoN8bLEFxF7gdvSJ\n1ysCyVpX17TxkhR6Vt7cqtDt+TINlpRMDxAIN6erSr7Ryc7uvphWMzS5w1ylUcnk\ni7vsSN5ms4JW2OYwpYU4f9ECgYEAxG0LZpB3XoxZQHZVSGIfjPS7VJhhs3YZGKRe\nO7gp9f+gswVM5P/tTui12bxicwkWwrBJCNmFAOsPUBMOTufAFqwWQHMR/QDykC5N\nWJvPeZWmN2HDQ36BX/ZE+8/QkNWJVFliaSzJ++UPuOP80U0i8ZSNdw51+zYzMqzg\nRx3mi+8CgYBiSWenGfs8kBc7k7cxC2vW5bIpmR21whA2yeMBnyC6dza03MO7xTtI\nrQsqgkTfQVzmkmaw0BOd3fKhI5CmOkVqgSuQ7TKbCgG+BGNa/DI0oeQauxXATO6a\nP5JVZ3HF5fR3Q1hoUcmhjQLAzs61U4uTxSCnnvfxeFl0sZGxcBPOoQKBgQCMhEGK\nnsB2J8rVfZGm1WMisBSvAM+r1UlAwp0S9b022Sb5yknm7Fq0f29QEx8OkirxHbEx\nnoIyVPXAX9F1iv50eaj1dBwjNSFRGX6Fa/kxTmf46HwKdZ5RqthQl6rpYYj7iXII\nMV1RUN09dANxK1BbJ91HlVW7X1ui3d8XoQFDiwKBgQDIBsOijh0iY/Kw7PZ7vXQU\n8PvvoKpUgLAu9SMy5VX/GyuKmKFLQApO02BWCMcHJSTsk6J3gvUjrNVlKd96chKR\nLgY39dPNT0JX2Hqqx5PKxxE5KZz94sX7V0SIPvKgTwwR994WAWbyGLqRMQqtwh2R\ngSUo9Wsh/NP0/ZcWmodZJA==\n-----END PRIVATE KEY-----\n",
+  "client_email": "food-order-bot@somkor.iam.gserviceaccount.com",
+  "client_id": "103511797494169628248",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/food-order-bot%40somkor.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

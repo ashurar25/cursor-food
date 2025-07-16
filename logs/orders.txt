@@ -1,0 +1,30 @@
+
+=== ORDER #1 ===
+Date: 14/7/2568 20:37:44
+Customer: เก่ง
+Phone: 0924434311
+Total: $2.80
+Items: Strawberry Bliss Pancakes (1)
+Special Instructions: None
+Status: pending
+----------------------------------------
+
+=== ORDER #1 ===
+Date: 14/7/2568 21:25:12
+Customer: เก่ง
+Phone: 0924434311
+Total: $2.80
+Items: Strawberry Bliss Pancakes (1)
+Special Instructions: None
+Status: pending
+----------------------------------------
+
+=== ORDER #1 ===
+Date: 15/7/2568 09:42:46
+Customer: หนิง
+Phone: 0610306832
+Total: $14.10
+Items: Strawberry Bliss Pancakes (1), Thai Green Curry (1), Healthy Premium Steak (1)
+Special Instructions: None
+Status: pending
+----------------------------------------

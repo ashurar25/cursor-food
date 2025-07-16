@@ -1,0 +1,109 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: hsl(30, 100%, 95%);
+  --foreground: hsl(30, 14.3%, 4.1%);
+  --muted: hsl(30, 4.8%, 95.9%);
+  --muted-foreground: hsl(30, 5.3%, 44.7%);
+  --popover: hsl(30, 98%, 76%);
+  --popover-foreground: hsl(30, 14.3%, 4.1%);
+  --card: hsl(30, 100%, 74%);
+  --card-foreground: hsl(30, 14.3%, 4.1%);
+  --border: hsl(30, 5.9%, 90%);
+  --input: hsl(30, 5.9%, 90%);
+  --primary: hsl(30, 100%, 50%);
+  --primary-foreground: hsl(30, 98%, 80%);
+  --secondary: hsl(30, 84%, 62%);
+  --secondary-foreground: hsl(30, 98%, 79%);
+  --accent: hsl(30, 4.8%, 95.9%);
+  --accent-foreground: hsl(30, 9.8%, 10%);
+  --destructive: hsl(30, 84.2%, 60.2%);
+  --destructive-foreground: hsl(30, 9.1%, 97.8%);
+  --ring: hsl(30, 14.3%, 4.1%);
+  --radius: 0.5rem;
+  --thai-primary: hsl(30, 100%, 50%); /* Orange */
+  --thai-secondary: hsl(313, 98%, 60%); /* Lighter Orange */
+  --thai-accent: hsl(336, 98%, 60%); /* Another Orange Variation */
+  --pink-border: hsl(0, 0%, 100%); /* Orange-ish Border */
+}
+.dark {
+  --background: hsl(30, 100%, 10%);
+  --foreground: hsl(30, 100%, 95%);
+  --muted: hsl(30, 20%, 20%);
+  --muted-foreground: hsl(30, 30%, 50%);
+  --popover: hsl(30, 100%, 15%);
+  --popover-foreground: hsl(30, 100%, 90%);
+  --card: hsl(30, 100%, 15%);
+  --card-foreground: hsl(30, 100%, 90%);
+  --border: hsl(30, 20%, 25%);
+  --input: hsl(30, 20%, 25%);
+  --primary: hsl(30, 100%, 50%);
+  --primary-foreground: hsl(0, 0%, 100%);
+  --secondary: hsl(313, 98%, 60%);
+  --secondary-foreground: hsl(0, 0%, 100%);
+  --accent: hsl(30, 20%, 20%);
+  --accent-foreground: hsl(0, 0%, 98%);
+  --destructive: hsl(0, 62.8%, 30.6%);
+  --destructive-foreground: hsl(0, 0%, 98%);
+  --ring: hsl(30, 40%, 60%);
+  --radius: 0.5rem;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-sans antialiased bg-background text-foreground;
+  }
+
+  .thai-primary {
+    color: var(--thai-primary);
+  }
+
+  .thai-secondary {
+    color: var(--thai-secondary);
+  }
+
+  .thai-accent {
+    color: var(--thai-accent);
+  }
+
+  .bg-thai-primary {
+    background-color: var(--thai-primary);
+  }
+
+  .bg-thai-secondary {
+    background-color: var(--thai-secondary);
+  }
+
+  .bg-thai-accent {
+    background-color: var(--thai-accent);
+  }
+
+  .border-pink-border {
+    border-color: var(--pink-border);
+  }
+}
+
+@layer components {
+  .category-btn.active .category-icon {
+    @apply scale-110;
+    background: linear-gradient(45deg, var(--thai-primary), hsl(328, 53%, 70%));
+  }
+
+  .category-btn.active .category-text {
+    @apply thai-primary font-semibold;
+  }
+
+  .food-card {
+    @apply bg-white rounded-2xl shadow-md overflow-hidden transition-transform hover:scale-105;
+  }
+
+  .notification {
+    @apply fixed top-4 right-4 bg-pink-500 text-white px-6 py-3 rounded-lg shadow-lg z-50 transition-opacity duration-300;
+  }
+}
